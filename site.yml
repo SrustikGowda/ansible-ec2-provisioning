@@ -1,0 +1,6 @@
+- name: Provision EC2 and Configure Environment
+  hosts: all
+  become: true
+  roles:
+    - common
+    - webserver
